@@ -1,0 +1,80 @@
+span.undefined { color:red; }
+.clear {clear:both;}
+table.display thead th { padding: 3px 18px 3px 10px; border-bottom: 1px solid black; border-top: 1px solid black; font-weight: bold; cursor: pointer; cursor: hand; }
+table.display tfoot th { padding: 3px 10px; border-top: 1px solid black; font-weight: bold; }
+table.display td { padding: 3px 10px; }
+table.display td.center { text-align: center; }
+table.display { margin-top: 24px; }
+tr.odd { background-color: #eee; }
+tr.even { background-color: white; }
+div.hidden { display: none;}
+div.bibinfo { width: 80%; position: fixed; top: 100px; left: 10%; background-color: #bbb; border: 3px solid #fff; padding: 10px; z-index: 10000;}
+#shutter { background-color: #555; opacity: 0.7; width:100%; height: 100%; position: fixed; top: 0; left:0; z-index: 20;}
+
+.bg-udc {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e1e9ef !important;
+}
+
+.display-5{font-size:2rem;font-weight:300;line-height:1.2}
+.display-6{font-size:1.4rem;font-weight:300;line-height:1.2}
+.navbar-toggler {
+  text-align: center;
+}
+
+.fa-bars {
+  color: #8e8e8e;
+}
+
+.nav-link {
+  color: #8e8e8e;
+}
+.nav-link:hover{
+  color: #2f2f2f;
+}
+
+.navbar-brand {
+  color: #000000;
+}
+
+.navbar-brand:hover {
+  color: #000000;
+}
+
+a {
+  color: #389ff8;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
